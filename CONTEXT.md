@@ -74,8 +74,10 @@ Retrasos (lead times): 2 rondas de pedido + 2 rondas de despacho (configurable e
    la página, que crea una sesión Streamlit nueva cada vez): los 4 roles se
    bloquearon correctamente al elegirse, cada sesión vio el estado compartido
    actualizado en tiempo real, y la ronda avanzó sola (1/20 → 2/20) al completarse
-   los 4 pedidos. Pendiente: desplegar en Streamlit Community Cloud (requiere
-   repositorio en GitHub) para que las 4 ubicaciones reales puedan conectarse.
+   los 4 pedidos. **Repo en GitHub (2026-07-07): https://github.com/Dackarl/beer-game**
+   (público, rama `master`). Pendiente: conectar el repo en Streamlit Community Cloud
+   (share.streamlit.io) para obtener la URL pública y que las 4 ubicaciones reales
+   puedan conectarse.
 7. ⬜ Integrar ML como motor de demanda/dificultad (NO reemplaza las decisiones humanas)
 8. ⬜ Probar con las 4 personas reales, balancear dificultad, demo final
 
